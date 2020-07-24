@@ -4,6 +4,7 @@ $("button#clear").click(function(){
   console.log("cleared")
   count = 0;
   $("#content").text(count);
+  $("#timestamp").text(null);
 });
 
 $(this).keydown(function(e) {
