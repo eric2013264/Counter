@@ -1,6 +1,7 @@
 var count = 0;
 
 $("button#clear").click(function(){
+  console.log("cleared")
   count = 0;
   $("#content").text(count);
 });
