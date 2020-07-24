@@ -9,7 +9,10 @@ div {
     width: 100%;
     font-size: 100px;
 }
- 
+
+ #timestamp {
+    font-size: 40px;
+}
 .timestamp {
     font-size: 40px;
 }
