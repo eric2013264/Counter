@@ -18,3 +18,6 @@ $(document).ready(function() {
     $("#content").text(count)
 });
 
+document.getElementById("clear").addEventListener("click", function() {
+  alert("hey");
+});
