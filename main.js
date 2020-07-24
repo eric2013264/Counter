@@ -1,7 +1,10 @@
 
 $(document).ready(function(){
   console.log("ready")
-  $(document).keydown(function(e) {
+  $(this).keydown(function(e) {
+    e.preventDefault()
+    console.alert(e.which)
+    
     if (e.which == 13) {
         $('#content').val("Hey"); 
     }
