@@ -10,6 +10,7 @@ $(this).keydown(function(e) {
    e.preventDefault();
    count+=1;
    $("#content").text(count);
+   $("#timestamp").text(new Date().toLocaleString());
 });
 
 $(document).ready(function() {
