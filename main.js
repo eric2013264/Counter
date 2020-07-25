@@ -1,11 +1,6 @@
 var count = 0;
 
-$(":button").click(function(){
-  console.log("cleared")
-  count = 0;
-  $("#content").text(count);
-  $("#timestamp").text(null);
-});
+
 
 $(this).keydown(function(e) {
    e.preventDefault();
@@ -16,4 +11,11 @@ $(this).keydown(function(e) {
 
 $(document).ready(function() {
     $("#content").text(count)
+  
+    $(":button").click(function(){
+    console.log("cleared")
+    count = 0;
+    $("#content").text(count);
+    $("#timestamp").text(null);
+  });
 });
