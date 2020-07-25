@@ -15,7 +15,7 @@ $(document).ready(function() {
        e.preventDefault();
        count+=1;
        $("#content").text(count);
-       $(':button').css('display','block');
+       $(':button').css('display','inline');
        $(':button').css('text-align','center');
        $("#timestamp").text("Last Clicked: " + new Date().toLocaleString());
     });
