@@ -1,6 +1,6 @@
 var count = 0;
 
-$(this).click(function(){
+$(":button").click(function(){
   console.log("cleared")
   count = 0;
   $("#content").text(count);
