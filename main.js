@@ -8,12 +8,16 @@ $(document).ready(function() {
        count = 0;
        $("#content").text(count);
        $("#timestamp").text(null);
+       $(':button').css('display','none');
     });
    
     $(this).keydown(function(e) {
        e.preventDefault();
        count+=1;
        $("#content").text(count);
+       $(':button').css('display','block');
        $("#timestamp").text("Last Clicked: " + new Date().toLocaleString());
     });
+    
+    
 });
